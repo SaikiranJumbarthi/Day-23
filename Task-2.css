@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    background-color: black;
+    color:white;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: green;
+}
+.navbar-left{
+    padding:20px;
+}
+.navbar-left:hover{
+    font-size: 150%;
+}
+
+.navbar-right{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar-right a:hover{
+    font-size: 150%;
+    color: aqua;
+}
+.space{
+        padding:10px;
+}
+.Home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+}
+.Home-left{
+    width:50vw;
+    text-align: center;
+    padding-left: 100px;
+}
+.Home-right{
+    width:50vw;
+    padding:200px;
+}
+.Profile{
+    height:300px;
+    width: 250px;
+    border-radius: 50%
+}
+.Name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.bio {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+}
+.bio:hover{
+    font-size: 150%;
+}
+.Services{
+    padding:50px;
+    text-align: center;
+}
+.Heading{
+    color: green;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-style: italic;
+}
+.Services-sub-content{
+    display: flex;
+    flex-direction: row;
+}
+.Additional-Skills{
+    border:2px green solid;
+    margin: 20px;
+    padding:20px;
+    width:300px;
+}
+.Contact{
+    text-align: center;
+}
+.Contact-info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.title:hover{
+    font-size: 250%;
+}
+.skills{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.skills:hover{
+    font-size: 250%;
+}
+.Project{
+    border:2px green solid;
+    margin: 20px;
+    padding:20px;
+    width:300px;
+}
+.project{
+    padding-left:150px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.icons{
+    height: 50px;
+    padding:30px;
+}

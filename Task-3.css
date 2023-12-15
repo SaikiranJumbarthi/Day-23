@@ -1,0 +1,118 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.microsft{
+    height: 310px;
+    width: 310px;
+    position: relative;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin: 5px;
+    position: absolute;
+}
+.red{
+    background-color: #f35220;
+    transform: translate(0px, 0px);
+    animation: anim_red 4s linear infinite;
+}
+.green{
+    background-color: #82be00;
+    transform: translate(155px, 0px);
+    animation: anim_green 4s linear infinite;
+    animation-delay: 0.5s;
+}
+.yellow{
+    background-color: #ffbb05;
+    transform: translate(155px, 155px);
+    animation: anim_yellow 4s linear infinite;
+    animation-delay: 1s;
+}
+.blue{
+    background-color: #00A8F0;
+    transform: translate(0px, 155px);
+    animation: anim_blue 4s linear infinite;
+    animation-delay: 1.5s;
+}
+@keyframes anim_red{
+    0% {
+        transform: translate(0px, 0px);
+    }
+    12.5% {
+        transform: translate(155px, 0px);
+    }
+    25% {
+        transform: translate(155px, 155px);
+    }
+    37.5% {
+        transform: translate(0px, 155px);
+    }
+    50% {
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes anim_green{
+    0% {
+        transform: translate(155px, 0px);
+    }
+    12.5% {
+        transform: translate(155px, 155px);
+    }
+    25% {
+        transform: translate(0px, 155px);
+    }
+    37.5% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(155px, 0px);
+    }
+    100% {
+        transform: translate(155px, 0px);
+    }
+}
+@keyframes anim_yellow{
+    0% {
+        transform: translate(155px, 155px);
+    }
+    12.5% {
+        transform: translate(0px, 155px);
+    }
+    25% {
+        transform: translate(0px, 0px);
+    }
+    37.5% {
+        transform: translate(155px, 0px);
+    }
+    50% {
+        transform: translate(155px, 155px);
+    }
+    100% {
+        transform: translate(155px, 155px);
+    }
+}
+@keyframes anim_blue{
+    0% {
+        transform: translate(0px, 155px);
+    }
+    12.5% {
+        transform: translate(0px, 0px);
+    }
+    25% {
+        transform: translate(155px, 0px);
+    }
+    37.5% {
+        transform: translate(155px, 155px);
+    }
+    50% {
+        transform: translate(0px, 155px);
+    }
+    100% {
+        transform: translate(0px, 155px);
+    }
+}
